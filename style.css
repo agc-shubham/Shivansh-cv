@@ -47,18 +47,18 @@ p{
 icon{
 
 	margin-bottom: 1rem;
-	color: #40bad5;
+	color: #00dbde;
 }
 icon:hover{
 
-	color: #ff4c68;
+	color: #fc00ff;
 }
 
 /*testimonials*/
 #testimonial-slider{
 	padding: 7% 15%;
 	text-align: center;
-	background-color: #40bad5;
+	/*background-color: #40bad5;*/
 	color: #fff;
 }
 .testimonial-image{
@@ -108,4 +108,19 @@ icon:hover{
 
 .social-media{
 	padding: 2% 1%;
+}
+.linear-gradient{
+	background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+.linear-gradient1{
+	background: #457fca;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
